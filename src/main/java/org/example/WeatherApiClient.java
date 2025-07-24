@@ -66,7 +66,7 @@ public class WeatherApiClient {
         String city = sc.nextLine();
 
         // 🔑 Replace with your actual API key
-        String apiKey = "3e16f0c12a31d48d67235a3194896f07";
+        String apiKey = "Please Enter Your API key";
 
         String jsonResponse = getWeatherData(city, apiKey);
 
